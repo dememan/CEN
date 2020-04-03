@@ -235,6 +235,11 @@ The `type` field has the following meaning:
 These parameter choices result in signed reports of 134-390 bytes or unsigned
 reports of 70-326 bytes, depending on the length of the memo field.
 
+**Test vectors** can be generated via
+```
+cargo test generate_test_vectors -- --nocapture
+```
+
 ## CEN sharing with Bluetooth Low Energy
 
 Applications following this protocol are based on iOS and Android applications
